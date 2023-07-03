@@ -1,0 +1,123 @@
+:root{
+  --color-grey: rgb(65, 65, 65);
+  --color-dark-cyan: #184d4a;
+  --color-cyan: DarkCyan;
+  --color-text: white;
+  --color-yellow: rgb(252, 249, 65);
+  --color-project-title: #0d98d8;
+  --color-navbar: #000000;
+  --color-borda: DarkCyan;
+
+}
+
+/* Tags HTML */
+
+body {
+  background-color: var(--color-grey);
+  font-family: 'Belanosima', sans-serif;
+  font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--color-text);
+  text-align: center;
+}
+
+p {
+  color: var(--color-text);
+  line-height: 2;
+}
+
+main{
+  margin: 10px;
+}
+
+header{
+  background-color: var(--color-navbar);
+}
+
+
+/* IDs */
+
+#logo-banda-contato{
+  border-radius: 30px;
+  width: 150px;
+}
+
+#logo-banda-navbar{
+  padding-top: 5px;
+  width: 100px;
+}
+
+#contato-article{
+  text-align: center;
+}
+
+/* Classes */
+
+.contato-logo{
+  width: 50px;
+}
+
+.contato-chat{
+  color: var(--color-text);
+}
+
+.nav-link{
+  color: var(--color-text) !important;
+}
+
+.navbar-brand{
+  color: var(--color-text) !important;
+}
+
+.active{
+  color: var(--color-yellow) !important;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.fa{
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.fa-instagram{
+  background: #e4268e;
+  color: white;
+}
+
+.fa-facebook {
+  background: #1060d8;
+  color: white;
+}
+
+.project-title{
+  text-align: left;
+  font-size: 32px;
+  padding-left : 30px;
+  color: var(--color-project-title);
+}
+
+.fotos{
+  padding: 10px;
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.borda-lateral{
+  margin-left: 10px;
+  border-left: 3px solid var(--color-borda);
+  padding-left: 10px;
+}

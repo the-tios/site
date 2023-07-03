@@ -1,0 +1,1 @@
+$('#nav-placeholder').load("Javascript/navbar.html")

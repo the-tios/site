@@ -1,0 +1,33 @@
+<script>
+  var pathname = window.location.pathname;
+  
+  switch (pathname) {
+    case "/":
+    case "/index.html":
+      $('#navbarNavAltMarkup').find('#home-navbar').addClass('active');
+      break;      
+
+    case "/contato.html":
+      $('#navbarNavAltMarkup').find('#contato-navbar').addClass('active');
+      break;
+  }
+</script>
+
+<nav class="navbar navbar-expand-lg">  
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html#"><img id="logo-banda-navbar" src="Images/logo_the_tios.png"
+        alt="my icon with name"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a id="home-navbar" class="nav-link" href="index.html#">Home</a>
+          <a id="contato-navbar" class="nav-link" href="contato.html#">Contato</a>
+          <a class="nav-link fa fa-instagram" href="https://www.instagram.com/the_tios/"> Instagram</a>
+          <a class="nav-link fa fa-facebook" href="https://www.facebook.com/bandathetios"> Facebook</a>
+        </div>
+      </div>
+    </div>
+</nav>
